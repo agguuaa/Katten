@@ -54,6 +54,36 @@ footer h4 {
   border-radius: 8px;
 }
 
-tr {
-  border-bottom: 1px solid #ddd;
+.table {
+  margin: 20px;
+}
+
+table img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: 10px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+.koko {
+  background-color: aqua;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  table {
+    width: 100%;
+  }
 }
