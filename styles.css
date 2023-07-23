@@ -70,10 +70,6 @@ td {
   padding: 30px;
 }
 
-.koko {
-  background-color: aqua;
-}
-
 @media screen and (max-width: 700px) {
   header {
     padding: 60px 0;
